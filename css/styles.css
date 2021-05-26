@@ -79,3 +79,43 @@ canvas:focus {
   padding: calc(1em + 3vmin) calc(1em + 4vmin);
 }
 
+/* Underline animation */
+.underline {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.2em;
+}
+
+/* Fade in */
+.underline::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 81%;
+  height: 0.1em;
+  background-color: #F8F9FA;
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+
+.underline:hover::after,
+.underline:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+
+/* Slide in */
+.underline {
+  overflow: hidden;
+}
+
+.underline::after {
+  opacity: 1;
+  transform: translate3d(-101%, 0, 0);
+}
+
+.underline:hover::after,
+.underline:focus::after{
+  transform: translate3d(0, 0, 0);
+}
