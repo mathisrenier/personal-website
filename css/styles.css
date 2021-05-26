@@ -74,8 +74,7 @@ canvas:focus {
   height: auto;
   min-height: 5em;
   border-radius: 100px;
-  filter: drop-shadow(-10px -10px 0px #6C757D);
-  box-shadow: inset -10px -10px 0px #F8F9FA;
+  box-shadow: inset -10px -10px 20px #F8F9FA, 3px 3px 25px #6c757d;
   z-index: -1;
   padding: calc(1em + 3vmin) calc(1em + 4vmin);
 }
