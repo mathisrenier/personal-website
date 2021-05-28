@@ -30,9 +30,17 @@ h1 {
   z-index: 1;
 }
 
+h3 {
+  color: #212529;
+  font-size: calc(0.80em + 1vmin);
+  line-height: 1.8em;
+  font-weight: 500;
+}
+
 p {
   color: #212529;
-  font-size: calc(0.50em + 1vmin);
+  font-size: calc(0.60em + 1vmin);
+  line-height: 1.8em;
 }
 
 .name {
@@ -152,7 +160,17 @@ canvas:focus {
   min-height: 5em;
   border-radius: 100px;
   box-shadow: inset -10px -10px 20px #F8F9FA, 3px 3px 25px #6c757d;
-  /* padding: calc(1em + 3vmin) calc(1em + 4vmin); */
+}
+
+.project-text {
+  margin-left: calc(1em + 12vmin);
+  margin-right: calc(3em + 5vmin);
+  margin-top: calc(1em + 3vmin) ;
+  margin-bottom: calc(1em + 3vmin) ;
+}
+
+.project-description {
+  margin-top: calc(0.8em + 2vmin);
 }
 
 .box-left {
