@@ -163,10 +163,18 @@ canvas:focus {
 }
 
 .project-text {
-  margin-left: calc(1em + 12vmin);
-  margin-right: calc(3em + 5vmin);
   margin-top: calc(1em + 3vmin) ;
   margin-bottom: calc(1em + 3vmin) ;
+}
+
+.text-left {
+  margin-left: calc(3em + 5vmin);
+  margin-right: calc(1em + 12vmin);
+}
+
+.text-right {
+  margin-left: calc(1em + 12vmin);
+  margin-right: calc(3em + 5vmin);
 }
 
 .project-description {
