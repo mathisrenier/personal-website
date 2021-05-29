@@ -305,3 +305,15 @@ canvas:focus {
   font-size: calc(1.2em + 1.8vmin);
   line-height: 3em;
 }
+
+
+/* Footer */
+footer {
+  margin-left: 20px;
+  margin-bottom: 8px;
+}
+
+footer p {
+  color: #CED4DA;
+  font-size: calc(0.5em + 0.5vmin);
+}
