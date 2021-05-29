@@ -55,7 +55,8 @@ button {
   border-style: solid;
 }
 
-button:hover {
+button:hover,
+button:focus {
   color: #212529;
   border-color: #212529;
   background-color: transparent ;
@@ -87,14 +88,14 @@ canvas:focus {
 }
 
 .box-picture {
-  margin-top: 10vmin;
+  margin-top: 150px;
 }
 
 .profile-pic {
   position: relative;
   display: block;
   margin: 0 auto;
-  top: 4vmin;
+  top: 30px;
   width: calc(4em + 11vmin);
   z-index: 1;
 }
@@ -102,12 +103,16 @@ canvas:focus {
 .about-box {
   margin: 0 auto;
   background: #CED4DA;
-  width: 85vmin;
+  width: 98vmin;
   height: auto;
   min-height: 5em;
   border-radius: 100px;
   box-shadow: inset -10px -10px 20px #F8F9FA, 3px 3px 25px #6c757d;
-  padding: calc(1em + 3vmin) calc(1em + 4vmin);
+  padding: 50px 0;
+}
+
+.about-text {
+  margin: 0 calc(2em + 4vmin);
 }
 
 .contact-button {
@@ -161,12 +166,11 @@ canvas:focus {
 
 /* projects - - - - - - - - - - */
 .projects {
-  position: absolute;
   top: 200vh;
-  left: 15vmin;
-  right: 15vmin ;
-  
+  width: 98vmin;
+  margin: 200vh auto 0;
 }
+
 
 .grid-container {
   display: grid;
