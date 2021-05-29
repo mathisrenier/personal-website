@@ -72,23 +72,26 @@ button:focus {
   position: absolute;
   top: 0;
   z-index: -1;
+  overflow: hidden;
 }
 
 canvas:focus {
   outline: none;
 }
 
+.separator {
+  position: absolute;
+  top: 100vh;
+}
 
 /* about me - - - - - - - - - - */
 .about-me {
-  position: absolute;
-  top: 100vh;
   width: 100vw;
-  height: 100vh;
+  height: auto;
 }
 
 .box-picture {
-  margin-top: 150px;
+  margin-top: 250px;
 }
 
 .profile-pic {
@@ -166,9 +169,8 @@ canvas:focus {
 
 /* projects - - - - - - - - - - */
 .projects {
-  top: 200vh;
   width: 98vmin;
-  margin: 200vh auto 0;
+  margin: 300px auto 0;
 }
 
 
