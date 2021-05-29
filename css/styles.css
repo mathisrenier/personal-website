@@ -43,22 +43,28 @@ p {
   line-height: 1.8em;
 }
 
-button {
+.button {
+  display: flex;
+  width: calc(5em + 10vmin);
+  height: calc(1.5em + 4vmin);
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+
   color: #F8F9FA;
   font-family: 'Poppins', sans-serif;
   font-size: calc(0.60em + 1vmin);
+  text-decoration-line: none;
+  
   background-color: #6c757d; 
   border-radius: 100px;
-  width: calc(7em + 10vmin);
-  height: calc(2em + 4vmin);
-  border-color: #6c757d;
-  border-style: solid;
+  box-shadow: 0 0 0 0.13em #6c757d;
 }
 
-button:hover,
-button:focus {
+.button:hover,
+.button:focus {
   color: #212529;
-  border-color: #212529;
+  box-shadow: 0 0 0 0.13em #212529;
   background-color: transparent ;
 }
 
@@ -269,3 +275,33 @@ canvas:focus {
   box-shadow: inset -10px -10px 20px #F8F9FA, 3px 3px 25px #6c757d;
 }
 
+
+/* Contact - - - - - - - - - - */
+.contact {
+  margin: 350px auto 350px;
+}
+
+.contact-container {
+  text-align: center;
+}
+
+.contact-container p {
+  color: #F8F9FA;
+  font-size: calc(1.1em + 1vmin);
+}
+
+.contact-container a {
+  text-decoration-line: none;
+}
+
+.contact-container a:hover,
+.contact-container a:focus {
+  text-decoration-line: underline;
+  text-decoration-color: #F8F9FA;
+}
+
+.contact-container h3 {
+  color: #F8F9FA;
+  font-size: calc(1.2em + 1.8vmin);
+  line-height: 3em;
+}
