@@ -56,16 +56,19 @@ p {
   font-size: calc(0.60em + 1vmin);
   text-decoration-line: none;
   
-  background-color: #6c757d; 
+  background-color: #212529; 
   border-radius: 100px;
-  box-shadow: 0 0 0 0.13em #6c757d;
+  box-shadow: 0 0 0 0.13em #393e42;
+
+  transition: all 0.2s;
 }
 
 .button:hover,
 .button:focus {
-  color: #212529;
-  box-shadow: 0 0 0 0.13em #212529;
-  background-color: transparent ;
+  /* color: #212529; */
+  box-shadow: 0 0 0 0.13em #393e42;
+  background-color: #393e42 ;
+  transform: translateY(-5%);
 }
 
 .name {
