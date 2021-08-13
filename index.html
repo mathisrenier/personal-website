@@ -56,7 +56,7 @@
 
       <!-- About me - - - - - - - - - - - - - - - - - - - - - -->
       <a id="about-me"></a>
-      <div class="about-me" data-aos="fade-up" data-aos-duration="1500">
+      <div class="about-me" data-aos="fade-up">
         <div class="box-picture">
           <img src="img/profile.png" alt="me" class="profile-pic">
           <div class="about-box">
@@ -81,12 +81,12 @@
         <div class="grid-container">
 
           <!-- snap lens -->
-          <div class="img-left row1" data-aos="fade-up" data-aos-duration="1500">
+          <div class="img-left row1" data-aos="fade-up" >
             <a target="_blank" rel="noopener noreferrer" href="https://lens.snapchat.com/e9be86bf67c845988814f910731e055d">
               <img src="img/snaplens.gif" alt="Preview" class="preview">
             </a>
           </div>
-          <div class="project-box box-right row1" data-aos="fade-up" data-aos-duration="1500">
+          <div class="project-box box-right row1" data-aos="fade-up">
             <div class="project-text text-right">
               <h3>Augmented Reality Metro Map</h3>
               <p class="project-description">
@@ -97,7 +97,7 @@
           </div>
 
           <!-- goodboy -->
-          <div class="project-box box-left row2" data-aos="fade-up" data-aos-duration="1500">
+          <div class="project-box box-left row2" data-aos="fade-up">
             <div class="project-text text-left">
               <h3>QHacks2021 Winner for Best Use of Google Cloud</h3>
               <p class="project-description">
@@ -107,19 +107,19 @@
               </p>
             </div>
           </div>
-          <div class="img-right row2" data-aos="fade-up" data-aos-duration="1500">
+          <div class="img-right row2" data-aos="fade-up">
             <a target="_blank" rel="noopener noreferrer" href="https://dougszeto.github.io/QHacks2021/">
               <img src="img/goodboy.jpeg" alt="Preview" class="preview">
             </a>
           </div>
 
           <!-- homebody -->
-          <div class="img-left row3" data-aos="fade-up" data-aos-duration="1500">
+          <div class="img-left row3" data-aos="fade-up">
             <a target="_blank" rel="noopener noreferrer" href="https://devpost.com/software/homebody">
               <img src="img/homebody.jpeg" alt="Preview" class="preview">
             </a>
           </div>
-          <div class="project-box box-right row3" data-aos="fade-up" data-aos-duration="1500">
+          <div class="project-box box-right row3" data-aos="fade-up">
             <div class="project-text text-right">
               <h3>TOHacks2020 Winner for Most Creative Radar Hack</h3>
               <p class="project-description">
@@ -162,7 +162,10 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        duration: 1500,
+        once: true,
+      });
     </script>
 
  </html>
