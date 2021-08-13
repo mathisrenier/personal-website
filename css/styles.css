@@ -66,8 +66,8 @@ p {
 .button:hover,
 .button:focus {
   /* color: #212529; */
-  box-shadow: 0 0 0 0.13em #393e42;
-  background-color: #393e42 ;
+  /* box-shadow: 0 0 0 0.13em #393e42;
+  background-color: #393e42 ; */
   transform: translateY(-5%);
 }
 
@@ -275,8 +275,9 @@ canvas:focus {
 }
 
 .preview:hover{
-  filter: grayscale(100%);
-  box-shadow: inset -10px -10px 20px #F8F9FA, 3px 3px 25px #6c757d;
+  /* filter: grayscale(100%); */
+  /* box-shadow: inset -10px -10px 20px #F8F9FA, 3px 3px 25px #6c757d; */
+  transform: translateY(-5%);
 }
 
 
