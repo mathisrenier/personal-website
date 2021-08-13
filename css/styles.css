@@ -60,7 +60,7 @@ p {
   border-radius: 100px;
   box-shadow: 0 0 0 0.13em #393e42;
 
-  transition: all 0.2s;
+  transition: ease 0.2s;
 }
 
 .button:hover,
@@ -271,6 +271,7 @@ canvas:focus {
   border-radius: 50%;
   width: calc(4em + 15vmin);
   filter: saturate(120%);
+  transition: ease 0.2s;
 }
 
 .preview:hover{
