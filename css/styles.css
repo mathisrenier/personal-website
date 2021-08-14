@@ -77,6 +77,23 @@ p {
   top: 35vh;
 }
 
+.social-icons {
+  position: relative;
+  top: 38vh;
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(0px 0px 0.07em #ced4da63);
+}
+
+.social-icon {
+  padding: 0 0.5em;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+  transform: translateY(-5%);
+}
+
 .scene3d {
   position: absolute;
   top: 0;
