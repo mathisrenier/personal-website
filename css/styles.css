@@ -91,7 +91,7 @@ p {
 
 .social-icon:hover,
 .social-icon:focus {
-  transform: translateY(-5%);
+  transform: translateY(-10%);
 }
 
 .scene3d {
