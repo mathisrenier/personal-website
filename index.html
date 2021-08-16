@@ -76,7 +76,7 @@
 
       <!-- About me - - - - - - - - - - - - - - - - - - - - - -->
       <a id="about-me"></a>
-      <div class="about-me" data-aos="fade-up">
+      <div class="about-me"  data-aos="fade-up">
         <div class="box-picture">
           <img src="img/profile.png" alt="me" class="profile-pic">
           <div class="about-box">
@@ -106,7 +106,7 @@
               <img src="img/snaplens.gif" alt="Preview of the augmented reality snapchat lens created by Mathis Renier." class="preview">
             </a>
           </div>
-          <div class="project-box box-right row1" data-aos="fade-up">
+          <div class="project-box box-right row1">
             <div class="project-text text-right">
               <h3>Augmented Reality Metro Map</h3>
               <p class="project-description">
@@ -117,7 +117,7 @@
           </div>
 
           <!-- goodboy -->
-          <div class="project-box box-left row2" data-aos="fade-up">
+          <div class="project-box box-left row2">
             <div class="project-text text-left">
               <h3>QHacks2021 Winner for Best Use of Google Cloud</h3>
               <p class="project-description">
@@ -139,7 +139,7 @@
               <img src="img/homebody.jpeg" alt="Screenshot of the main screen of the homebody app." class="preview">
             </a>
           </div>
-          <div class="project-box box-right row3" data-aos="fade-up">
+          <div class="project-box box-right row3">
             <div class="project-text text-right">
               <h3>TOHacks2020 Winner for Most Creative Radar Hack</h3>
               <p class="project-description">
@@ -158,9 +158,11 @@
         <a id="contact"></a>
         <div class="contact-container">
           <p>Let's connect!</p>
-          <a href="mailto:hello@mathisrenier.com">
-            <h3>hello@mathisrenier.com</h3>
-          </a>
+          <h3>
+            <a href="mailto:hello@mathisrenier.com">
+              hello@mathisrenier.com
+            </a>
+          </h3>
         </div>
       </div>
 
@@ -180,8 +182,9 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init({
-        duration: 1500,
+        duration: 1000,
         once: true,
+        offset: 30,
       });
     </script>
 
